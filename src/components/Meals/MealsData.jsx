@@ -57,6 +57,6 @@ export const MealsData = () => {
         return(<MealsList key={data.id} value={data}/>)
     })
   return (
-    <div className=' m-0 -mt-12 grid gap-4 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3 px-4 md:py-4 md:mt-10 lg:py-4 xl:mt-14 '>{MealsItem}</div>
+    <div className=' m-0 -mt-12 grid gap-5 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3 px-4 md:py-4 md:mt-10 lg:py-4 xl:mt-14 '>{MealsItem}</div>
   )
 }
