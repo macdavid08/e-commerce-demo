@@ -8,8 +8,8 @@ export const Hero = () => {
       <section className="max-w-full bg-white font-Montserrat ">
         <div className=" hidden md:grid md:grid-cols-3 lg:grid-cols-5">
           <div className="px-6 py-2  lg:mt-12 xl:mt-14   2xl:mt-16 lg:col-span-2 leading-7 tracking-normal md:col-span-1 ">
-            <h1 className="font-bold text-green-800 text-4xl  py-2 md:text-2xl md:tracking-tight  ">Delicious Food, <br /><span className="text-slate-800"> Delivered To You</span></h1>
-           <div className="text-base lg:text-lg xl:text-2xl  space-y-3 tracking-tight text-slate-700 md:text-md md:space-y-2">
+            <h1 className="font-bold text-green-800 text-4xl  py-2 md:text-2xl md:tracking-tight lg:text-3xl xl:text-4xl  ">Delicious Food, <br /><span className="text-slate-800"> Delivered To You</span></h1>
+           <div className="text-base lg:text-lg xl:text-xl  space-y-3 tracking-tight text-slate-700 md:text-md md:space-y-2">
            <p>
              Choose your favorite meal from our broad selection of available meals and enjoy a delicious lunch or dinner at home
             </p>
@@ -32,7 +32,7 @@ export const Hero = () => {
               className="w-full h-full object-cover object-center "
             />
           </div>
-          <div className="px-4  ">
+          <div className="px-4 py-2  ">
           <h1 className="font-bold text-green-800  text-2xl text-center  ">Delicious Food, <br/> <span className="text-slate-800">Delivered To You</span></h1>
            <div className="text-sm tracking-tight  box-content space-y-2 text-slate-700">
            <p>
