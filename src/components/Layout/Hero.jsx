@@ -32,7 +32,7 @@ export const Hero = () => {
               className="w-full h-full object-cover object-center "
             />
           </div>
-          <div className="px-4 py-2  ">
+          <div className="px-4 py-2 mt-4  ">
           <h1 className="font-bold text-green-800  text-2xl text-center  ">Delicious Food, <br/> <span className="text-slate-800">Delivered To You</span></h1>
            <div className="text-sm tracking-tight  box-content space-y-2 text-slate-700">
            <p>
