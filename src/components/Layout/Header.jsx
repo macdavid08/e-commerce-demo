@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { NavBar } from "./NavBar";
 import { HeaderCart } from "./HeaderCart";
 
-export const Header = () => {
+export const Header = ({onSave}) => {
   const [toggle, setToggle] = useState(false);
   const handleToggle = () => {
     setToggle((prevState) => !prevState);
@@ -14,7 +14,7 @@ export const Header = () => {
           MacFoods
         </h1>
         <div className="hidden lg:block ">
-         <HeaderCart className=" flex items-center justify-between" />
+         <HeaderCart className=" flex items-center justify-between" onSave={onSave} />
         </div>
         <div className="lg:hidden" onClick={handleToggle}>
           {!toggle ? (
@@ -48,7 +48,7 @@ export const Header = () => {
               />
             </svg>
           )}
-         {toggle ?  <NavBar toggle={handleToggle}/> : ""}
+         {toggle ?  <NavBar toggle={handleToggle} onSave={onSave}/> : ""}
         </div>
       </header>
     </>

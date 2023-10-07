@@ -1,10 +1,10 @@
 import React from "react";
 
-export const HeaderCart = () => {
+export const HeaderCart = ({onSave}) => {
   return (
     <>
       <div className="w-3/3 mx-auto">
-      <button className="   px-6 py-2 space-x-4 flex items-center text-center rounded-2xl bg-green-700 border-none cursor-pointer  ">
+      <button className="   px-6 py-2 space-x-4 flex items-center text-center rounded-2xl bg-green-700 border-none cursor-pointer  " onClick={onSave}>
         <span>
           <svg
             xmlns="http://www.w3.org/2000/svg"
