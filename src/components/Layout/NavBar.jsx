@@ -8,9 +8,6 @@ export const NavBar = ({onSave}) => {
     <nav className="w-full h-auto fixed top-10 bg-gray-100 z-10 ">
       <div className=" flex flex-col p-3 space-y-3">
        <ul>
-        <li>Cart</li>
-        <li>Cart</li>
-        
        </ul>
        <HeaderCart onSave={onSave}/>
       </div>
