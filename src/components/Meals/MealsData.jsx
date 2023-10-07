@@ -14,7 +14,7 @@ export const MealsData = () => {
             img: asun,
             title: "Asun",
             desc: " Adelectable spicy roasted goat chopped into bite-sized pieces, with bell peppers.",
-            price: "$5"
+            price: 7.2
 
         },
         {
@@ -22,7 +22,7 @@ export const MealsData = () => {
             img: shawarma,
             title: "Shawarma",
             desc: "A thinly sliced cuts of meat, like chicken, beef, goat, lamb,  rolled into a large piece of flatbread. ",
-            price: "$5"
+            price: 5.2
 
         },
         {
@@ -30,7 +30,7 @@ export const MealsData = () => {
             img: burger,
             title: "Meat Burger",
             desc: " A sandwich consisting of a patty of ground meat, typically beef—placed inside a sliced bun.",
-            price: "$5"
+            price: 5.5
 
         },
         {
@@ -38,7 +38,7 @@ export const MealsData = () => {
             img: tableFood,
             title: "Table of Food",
             desc: " A combination of different dishes from all cultures to satisfy your tasty cravings",
-            price: "$25"
+            price: 25
 
         },
         {
@@ -46,7 +46,7 @@ export const MealsData = () => {
             img: chickenNchips,
             title: "Chicken & Chips",
             desc: "A combination of fried chicken and chips. ",
-            price: "$7"
+            price: 10.25
 
         },
         {
@@ -54,7 +54,7 @@ export const MealsData = () => {
             img: mixed,
             title: "Food Varities",
             desc: " A combination of different dishes from all cultures to satisfy your tasty cravings",
-            price: "$20"
+            price: 20
 
         }
     ]
